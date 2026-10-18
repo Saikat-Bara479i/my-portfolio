@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saikat Barai - Windows XP Portfolio</title>
+  <meta name="description" content="Saikat Barai - Software Engineer, AI & Systems Enthusiast. Interactive Windows XP retro portfolio with classic animations, My Projects folder, and AI Search Companion Assistant.">
+  <link rel="stylesheet" href="css/xp.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%230058e6' d='M2 3l9 1.5v7.5H2z'/%3E%3Cpath fill='%23ff3b30' d='M12 4.7l10 1.6v6.7H12z'/%3E%3Cpath fill='%2334c759' d='M2 13h9v7.5L2 19z'/%3E%3Cpath fill='%23ffcc00' d='M12 13h10v6.7l-10 1.6z'/%3E%3C/svg%3E">
+</head>
+<body>
+
+  <!-- =========================================================================
+       DESKTOP ENVIRONMENT
+       ========================================================================= -->
+  <div id="xp-desktop">
+    <!-- Desktop Icons -->
+    <div id="desktop-icons-container">
+      
+      <!-- My Projects Folder (Requested by User) -->
+      <div class="desktop-icon" data-window="window-projects" tabindex="0">
+        <div class="desktop-icon-img">
+          <svg viewBox="0 0 48 48" width="38" height="38">
+            <path fill="#FFA000" d="M40 12H22l-4-4H8c-2.2 0-4 1.8-4 4v24c0 2.2 1.8 4 4 4h32c2.2 0 4-1.8 4-4V16c0-2.2-1.8-4-4-4z"/>
+            <path fill="#FFCA28" d="M40 16H8c-2.2 0-4 1.8-4 4v16c0 2.2 1.8 4 4 4h32c2.2 0 4-1.8 4-4V20c0-2.2-1.8-4-4-4z"/>
+          </svg>
+        </div>
+        <div class="desktop-icon-title">My Projects</div>
+      </div>
+
+      <!-- AI Assistant (Requested by User) -->
+      <div class="desktop-icon" data-window="window-assistant" tabindex="0">
+        <div class="desktop-icon-img">
+          <svg viewBox="0 0 48 48" width="38" height="38">
+            <circle cx="24" cy="24" r="20" fill="#FFE082"/>
+            <!-- Dog/Rover face -->
+            <ellipse cx="16" cy="18" rx="5" ry="9" fill="#8D6E63" transform="rotate(-15 16 18)"/>
+            <ellipse cx="32" cy="18" rx="5" ry="9" fill="#8D6E63" transform="rotate(15 32 18)"/>
+            <circle cx="19" cy="24" r="3" fill="#212121"/>
+            <circle cx="29" cy="24" r="3" fill="#212121"/>
+            <ellipse cx="24" cy="30" rx="4" ry="3" fill="#5D4037"/>
+            <path d="M22 33 q2 3 4 0" stroke="#D32F2F" stroke-width="2" fill="none"/>
+          </svg>
+        </div>
+        <div class="desktop-icon-title">AI Assistant (Rover)</div>
+      </div>
+
+      <!-- Resume.doc -->
+      <div class="desktop-icon" data-window="window-resume" tabindex="0">
+        <div class="desktop-icon-img">
+          <svg viewBox="0 0 48 48" width="38" height="38">
+            <path fill="#2196F3" d="M38 42H10c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h20l10 10v24c0 1.1-.9 2-2 2z"/>
+            <path fill="#BBDEFB" d="M30 6v10h10"/>
+            <rect x="14" y="20" width="20" height="2" fill="#fff"/>
+            <rect x="14" y="25" width="20" height="2" fill="#fff"/>
+            <rect x="14" y="30" width="14" height="2" fill="#fff"/>
+          </svg>
+        </div>
+        <div class="desktop-icon-title">Resume.doc</div>
+      </div>
+
+      <!-- My Computer (System Properties) -->
+      <div class="desktop-icon" data-window="window-system" tabindex="0">
+        <div class="desktop-icon-img">
+          <svg viewBox="0 0 48 48" width="38" height="38">
+            <rect x="6" y="8" width="36" height="24" rx="2" fill="#ECE9D8" stroke="#7A96DF" stroke-width="2"/>
+            <rect x="10" y="12" width="28" height="16" fill="#3B88FC"/>
+            <path d="M18 32h12v6H18z" fill="#999"/>
+            <rect x="12" y="38" width="24" height="3" rx="1" fill="#ECE9D8" stroke="#7A96DF" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <div class="desktop-icon-title">My Computer</div>
+      </div>
+
+      <!-- Command Prompt -->
+      <div class="desktop-icon" data-window="window-cmd" tabindex="0">
+        <div class="desktop-icon-img">
+          <svg viewBox="0 0 48 48" width="38" height="38">
+            <rect x="6" y="10" width="36" height="28" rx="2" fill="#1E1E1E" stroke="#B0B0B0" stroke-width="2"/>
+            <rect x="6" y="10" width="36" height="6" fill="#0058E6"/>
+            <path d="M12 22l4 4-4 4" stroke="#00FF00" stroke-width="2" fill="none"/>
+            <rect x="18" y="28" width="6" height="2" fill="#00FF00"/>
+          </svg>
+        </div>
+        <div class="desktop-icon-title">Command Prompt</div>
+      </div>
+
+      <!-- Minesweeper -->
+      <div class="desktop-icon" data-window="window-minesweeper" tabindex="0">
+        <div class="desktop-icon-img">
+          <svg viewBox="0 0 48 48" width="38" height="38">
+            <circle cx="24" cy="25" r="14" fill="#212121"/>
+            <circle cx="24" cy="25" r="3" fill="#D32F2F"/>
+            <rect x="22" y="7" width="4" height="6" fill="#757575"/>
+            <path d="M12 13l5 5M36 13l-5 5M12 37l5-5M36 37l-5-5" stroke="#424242" stroke-width="3"/>
+          </svg>
+        </div>
+        <div class="desktop-icon-title">Minesweeper</div>
+      </div>
+
+      <!-- Internet Explorer -->
+      <div class="desktop-icon" data-url="https://github.com" tabindex="0">
+        <div class="desktop-icon-img">
+          <svg viewBox="0 0 48 48" width="38" height="38">
+            <circle cx="24" cy="24" r="18" fill="#1E88E5"/>
+            <path d="M10 26c6-14 26-16 28-2s-16 16-28 2z" stroke="#FFD54F" stroke-width="3.5" fill="none"/>
+            <text x="14" y="32" font-family="Arial" font-size="24" font-weight="bold" fill="#fff">e</text>
+          </svg>
+        </div>
+        <div class="desktop-icon-title">GitHub Web</div>
+      </div>
+
+      <!-- Contact / Email -->
+      <div class="desktop-icon" data-window="window-contact" tabindex="0">
+        <div class="desktop-icon-img">
+          <svg viewBox="0 0 48 48" width="38" height="38">
+            <rect x="6" y="12" width="36" height="24" rx="2" fill="#FFE082" stroke="#FFA000" stroke-width="2"/>
+            <path d="M6 14l18 13 18-13" stroke="#FFA000" stroke-width="2" fill="none"/>
+          </svg>
+        </div>
+        <div class="desktop-icon-title">Send Email</div>
+      </div>
+
+    </div>
+
+    <!-- Selection Marquee Box -->
+    <div id="xp-selection-marquee" class="hidden"></div>
+
+    <!-- Floating Rover Mascot & Speech Balloon -->
+    <div id="xp-rover-widget" title="Click to chat with Rover, Saikat's AI Assistant!">
+      <div id="rover-welcome-balloon" class="rover-speech-balloon hidden">
+        <strong>Woof! I'm Rover!</strong><br/>
+        Welcome to Saikat Barai's portfolio! Ask me anything about his C++ Vector DB, AI projects, or NIT research!
+      </div>
+      <div class="rover-floating-mascot">
+        <svg viewBox="0 0 100 100" width="70" height="70">
+          <!-- Dog body -->
+          <ellipse cx="50" cy="62" rx="28" ry="22" fill="#E0A96D"/>
+          <ellipse cx="74" cy="52" rx="6" ry="14" fill="#B97A42" transform="rotate(25 74 52)"/> <!-- tail -->
+          <!-- Head -->
+          <ellipse cx="38" cy="38" rx="20" ry="18" fill="#E0A96D"/>
+          <!-- Left ear -->
+          <ellipse cx="22" cy="30" rx="8" ry="16" fill="#8D5524" transform="rotate(-20 22 30)"/>
+          <!-- Right ear -->
+          <ellipse cx="50" cy="26" rx="8" ry="16" fill="#8D5524" transform="rotate(25 50 26)"/>
+          <!-- Eye -->
+          <circle cx="34" cy="36" r="4" fill="#212121"/>
+          <circle cx="35" cy="35" r="1.5" fill="#fff"/>
+          <!-- Nose -->
+          <ellipse cx="26" cy="44" rx="4" ry="3" fill="#3E2723"/>
+          <!-- Collar with gold bell -->
+          <path d="M28 54 Q40 58 48 50" stroke="#D32F2F" stroke-width="5" fill="none"/>
+          <circle cx="38" cy="56" r="4" fill="#FFD700"/>
+          <!-- Paws -->
+          <ellipse cx="36" cy="80" rx="8" ry="5" fill="#E0A96D"/>
+          <ellipse cx="56" cy="80" rx="8" ry="5" fill="#E0A96D"/>
+        </svg>
+      </div>
+    </div>
+
+    <!-- =========================================================================
+         WINDOW 1: MY PROJECTS FOLDER (Explorer Window)
+         ========================================================================= -->
+    <div id="window-projects" class="xp-window hidden" style="width: 760px; height: 500px; top: 40px; left: 80px;">
+      <!-- Title bar -->
+      <div class="xp-window-header">
+        <div class="xp-window-title">
+          <svg viewBox="0 0 24 24" width="16" height="16"><path fill="#FFCA28" d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg>
+          <span>My Projects</span>
+        </div>
+        <div class="xp-window-controls">
+          <div class="xp-control-btn btn-minimize"><span></span></div>
+          <div class="xp-control-btn btn-maximize"><span></span></div>
+          <div class="xp-control-btn btn-close"><span>&times;</span></div>
+        </div>
+      </div>
+
+      <!-- Menubar -->
+      <div class="xp-menubar">
+        <div class="xp-menu-item">File</div>
+        <div class="xp-menu-item">Edit</div>
+        <div class="xp-menu-item">View</div>
+        <div class="xp-menu-item">Favorites</div>
+        <div class="xp-menu-item">Tools</div>
+        <div class="xp-menu-item">Help</div>
+      </div>
+
+      <!-- Explorer Toolbar -->
+      <div class="xp-toolbar">
+        <button class="xp-tool-btn" onclick="window.history.back()">
+          <span style="color:#4caf50; font-size:14px;">◀</span> Back
+        </button>
+        <button class="xp-tool-btn">
+          <span style="color:#81c784; font-size:14px;">▶</span>
+        </button>
+        <button class="xp-tool-btn">
+          <span style="color:#ffb300; font-size:14px;">▲</span> Up
+        </button>
+        <div class="xp-toolbar-sep"></div>
+        <button class="xp-tool-btn" onclick="windowManager.open('window-assistant')">
+          <span style="font-size:13px;">🔍</span> Search
+        </button>
+        <button class="xp-tool-btn active">
+          <span style="font-size:13px;">📁</span> Folders
+        </button>
+        <div class="xp-toolbar-sep"></div>
+        <button class="xp-tool-btn explorer-view-btn active" data-view="icons">Icons</button>
+        <button class="xp-tool-btn explorer-view-btn" data-view="details">Details</button>
+      </div>
+
+      <!-- Address Bar -->
+      <div class="xp-address-bar">
+        <span>Address</span>
+        <div class="address-input-box">
+          <svg viewBox="0 0 24 24" width="14" height="14"><path fill="#FFCA28" d="M10 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg>
+          <span>C:\Documents and Settings\Saikat\Desktop\My Projects</span>
+        </div>
+        <button class="xp-btn" style="padding:2px 8px;">Go</button>
+      </div>
+
+      <!-- Explorer Main Split View -->
+      <div class="explorer-main-area">
+        <!-- Sidebar -->
+        <div class="explorer-sidebar">
+          <div class="sidebar-box">
+            <div class="sidebar-box-header">
+              <span>File and Folder Tasks</span>
+              <span>▾</span>
+            </div>
+            <div class="sidebar-box-content">
+              <div class="sidebar-link" onclick="windowManager.open('window-assistant')">
+                <span>🤖</span> Ask AI About Projects
+              </div>
+              <div class="sidebar-link" onclick="windowManager.open('window-resume')">
+                <span>📄</span> Open Resume.doc
+              </div>
+              <div class="sidebar-link" onclick="window.open('https://github.com', '_blank')">
+                <span>🐙</span> Visit GitHub Profile
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar-box">
+            <div class="sidebar-box-header">
+              <span>Selected Project Details</span>
+              <span>▾</span>
+            </div>
+            <div class="sidebar-box-content" id="explorer-sidebar-details">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+
+          <div class="sidebar-box">
+            <div class="sidebar-box-header">
+              <span>Other Places</span>
+              <span>▾</span>
+            </div>
+            <div class="sidebar-box-content">
+              <div class="sidebar-link" onclick="windowManager.open('window-system')">🖥️ My Computer</div>
+              <div class="sidebar-link" onclick="windowManager.open('window-cmd')">⚡ Command Prompt</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- File List Content -->
+        <div id="projects-explorer-content" class="explorer-content view-icons">
+          <!-- Filled by js/apps.js -->
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================================================================
+         WINDOW 2: AI ASSISTANT / SEARCH COMPANION (Requested by User)
+         ========================================================================= -->
+    <div id="window-assistant" class="xp-window hidden" style="width: 720px; height: 530px; top: 60px; left: 240px;">
+      <!-- Title bar -->
+      <div class="xp-window-header">
+        <div class="xp-window-title">
+          <span style="font-size:14px;">🐕</span>
+          <span>Search Companion - Saikat AI Assistant</span>
+        </div>
+        <div class="xp-window-controls">
+          <div class="xp-control-btn btn-minimize"><span></span></div>
+          <div class="xp-control-btn btn-maximize"><span></span></div>
+          <div class="xp-control-btn btn-close"><span>&times;</span></div>
+        </div>
+      </div>
+
+      <!-- Menubar -->
+      <div class="xp-menubar">
+        <div class="xp-menu-item">Assistant</div>
+        <div class="xp-menu-item">Options</div>
+        <div class="xp-menu-item">Help</div>
+      </div>
+
+      <!-- Assistant Content -->
+      <div class="assistant-layout">
+        <!-- Left Pane with Animated Rover Mascot -->
+        <div class="assistant-left-pane">
+          <div class="rover-mascot-container">
+            <div class="rover-mascot state-happy">
+              <svg viewBox="0 0 100 100" width="90" height="90">
+                <ellipse cx="50" cy="62" rx="28" ry="22" fill="#E0A96D"/>
+                <ellipse cx="74" cy="52" rx="6" ry="14" fill="#B97A42" transform="rotate(25 74 52)"/>
+                <ellipse cx="38" cy="38" rx="20" ry="18" fill="#E0A96D"/>
+                <ellipse cx="22" cy="30" rx="8" ry="16" fill="#8D5524" transform="rotate(-20 22 30)"/>
+                <ellipse cx="50" cy="26" rx="8" ry="16" fill="#8D5524" transform="rotate(25 50 26)"/>
+                <circle cx="34" cy="36" r="4" fill="#212121"/>
+                <circle cx="35" cy="35" r="1.5" fill="#fff"/>
+                <ellipse cx="26" cy="44" rx="4" ry="3" fill="#3E2723"/>
+                <path d="M28 54 Q40 58 48 50" stroke="#D32F2F" stroke-width="5" fill="none"/>
+                <circle cx="38" cy="56" r="4" fill="#FFD700"/>
+                <ellipse cx="36" cy="80" rx="8" ry="5" fill="#E0A96D"/>
+                <ellipse cx="56" cy="80" rx="8" ry="5" fill="#E0A96D"/>
+              </svg>
+            </div>
+          </div>
+          <strong style="color:#003399; font-size:12px;">Rover</strong>
+          <span style="font-size:10px; color:#555;">Saikat's AI Companion</span>
+          
+          <div style="margin-top:auto; font-size:10px; color:#444; background:rgba(255,255,255,0.7); padding:6px; border-radius:4px; border:1px solid #adc4ea; width:100%;">
+            💡 <em>Ask me anything about Saikat's projects, C++ Vector DB, AI models, or background!</em>
+          </div>
+        </div>
+
+        <!-- Right Pane: Chat History & Input -->
+        <div class="assistant-right-pane">
+          <div id="assistant-chat-messages" class="chat-history-container">
+            <!-- Initial Greeting -->
+            <div class="chat-message msg-bot">
+              <div class="msg-sender"><span style="font-size:12px;">🐕</span> Rover (Search Companion)</div>
+              <div class="msg-bubble markdown-body">
+                <strong>Hello! I'm Rover, Saikat Barai's vintage AI Assistant!</strong><br/><br/>
+                I know everything about Saikat's background, engineering projects, AI stack, and research. 
+                What would you like to know about him? Click one of the suggestions below or type your question!
+              </div>
+            </div>
+          </div>
+
+          <!-- Suggested Prompt Chips -->
+          <div id="assistant-preset-chips" class="assistant-preset-chips">
+            <!-- Populated via js/apps.js -->
+          </div>
+
+          <!-- Input Bar -->
+          <div class="assistant-input-bar">
+            <input type="text" id="assistant-user-input" class="assistant-input-field" placeholder="Ask Rover anything about Saikat Barai..." autocomplete="off">
+            <button id="assistant-send-btn" class="xp-btn xp-btn-primary">Ask AI</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================================================================
+         WINDOW 3: PROJECT PROPERTIES / DETAIL INSPECTOR MODAL
+         ========================================================================= -->
+    <div id="window-project-details" class="xp-window hidden xp-dialog" style="width: 580px; height: 460px; top: 80px; left: 160px;">
+      <div class="xp-window-header">
+        <div class="xp-window-title">
+          <span style="font-size:14px;">⚙️</span>
+          <span id="project-detail-title">Project Details</span>
+        </div>
+        <div class="xp-window-controls">
+          <div class="xp-control-btn btn-close"><span>&times;</span></div>
+        </div>
+      </div>
+      <div id="project-detail-content" style="padding:16px; background:#ece9d8; flex:1; overflow-y:auto;">
+        <!-- Filled dynamically -->
+      </div>
+    </div>
+
+    <!-- =========================================================================
+         WINDOW 4: WORDPAD RESUME VIEWER
+         ========================================================================= -->
+    <div id="window-resume" class="xp-window hidden" style="width: 780px; height: 560px; top: 30px; left: 120px;">
+      <div class="xp-window-header">
+        <div class="xp-window-title">
+          <svg viewBox="0 0 24 24" width="16" height="16"><path fill="#2196F3" d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6z"/></svg>
+          <span>Saikat_Barai_Resume.doc - WordPad</span>
+        </div>
+        <div class="xp-window-controls">
+          <div class="xp-control-btn btn-minimize"><span></span></div>
+          <div class="xp-control-btn btn-maximize"><span></span></div>
+          <div class="xp-control-btn btn-close"><span>&times;</span></div>
+        </div>
+      </div>
+
+      <div class="xp-menubar">
+        <div class="xp-menu-item">File</div>
+        <div class="xp-menu-item">Edit</div>
+        <div class="xp-menu-item">View</div>
+        <div class="xp-menu-item">Insert</div>
+        <div class="xp-menu-item">Format</div>
+        <div class="xp-menu-item">Help</div>
+      </div>
+
+      <div class="wordpad-toolbar">
+        <button class="xp-tool-btn" id="wordpad-print-btn">🖨️ Print / Save PDF</button>
+        <div class="xp-toolbar-sep"></div>
+        <select class="xp-btn" style="padding:1px 4px;"><option>Times New Roman</option><option>Arial</option><option>Tahoma</option></select>
+        <select class="xp-btn" style="padding:1px 4px;"><option>11</option><option>12</option><option>14</option></select>
+        <button class="xp-tool-btn"><strong>B</strong></button>
+        <button class="xp-tool-btn"><em>I</em></button>
+        <button class="xp-tool-btn"><u>U</u></button>
+      </div>
+
+      <div class="wordpad-canvas">
+        <div id="wordpad-resume-content">
+          <!-- Populated from js/apps.js with Saikat's actual resume -->
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================================================================
+         WINDOW 5: SYSTEM PROPERTIES (My Computer)
+         ========================================================================= -->
+    <div id="window-system" class="xp-window hidden xp-dialog" style="width: 480px; height: 490px; top: 50px; left: 200px;">
+      <div class="xp-window-header">
+        <div class="xp-window-title">
+          <span>🖥️</span>
+          <span>System Properties</span>
+        </div>
+        <div class="xp-window-controls">
+          <div class="xp-control-btn btn-close"><span>&times;</span></div>
+        </div>
+      </div>
+
+      <!-- Tabs -->
+      <div class="xp-tab-strip">
+        <div class="xp-tab-header active" data-tab="tab-general">General</div>
+        <div class="xp-tab-header" data-tab="tab-skills">Skills &amp; Hardware</div>
+        <div class="xp-tab-header" data-tab="tab-experience">Experience</div>
+        <div class="xp-tab-header" data-tab="tab-education">Education</div>
+      </div>
+
+      <div class="xp-tab-content-area">
+        <!-- Tab 1: General -->
+        <div id="tab-general" class="xp-tab-page active">
+          <div class="system-prop-row">
+            <div class="system-xp-logo-large"></div>
+            <div>
+              <fieldset class="xp-fieldset">
+                <legend>System</legend>
+                Microsoft Windows XP<br/>
+                Professional<br/>
+                Version 2002 Service Pack 3
+              </fieldset>
+
+              <fieldset class="xp-fieldset">
+                <legend>Registered to</legend>
+                <strong>Saikat Barai</strong><br/>
+                Software &amp; AI Engineer<br/>
+                brucewyane699@gmail.com
+              </fieldset>
+
+              <fieldset class="xp-fieldset">
+                <legend>Computer</legend>
+                Jalpaiguri Govt Engineering College<br/>
+                B.Tech in Information Technology<br/>
+                <strong>CGPA: 8.11</strong><br/>
+                High-Performance Mind / 16.0 GB RAM
+              </fieldset>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 2: Skills -->
+        <div id="tab-skills" class="xp-tab-page">
+          <fieldset class="xp-fieldset">
+            <legend>Core Languages</legend>
+            <div class="tech-pills-row">
+              <span class="xp-pill">C / C++</span>
+              <span class="xp-pill">Python</span>
+              <span class="xp-pill">JavaScript</span>
+              <span class="xp-pill">SQL</span>
+            </div>
+          </fieldset>
+
+          <fieldset class="xp-fieldset">
+            <legend>Databases &amp; ORMs</legend>
+            <div class="tech-pills-row">
+              <span class="xp-pill">PostgreSQL</span>
+              <span class="xp-pill">MongoDB</span>
+              <span class="xp-pill">Mongoose</span>
+              <span class="xp-pill">MySQL</span>
+              <span class="xp-pill">Prisma</span>
+            </div>
+          </fieldset>
+
+          <fieldset class="xp-fieldset">
+            <legend>AI &amp; LLM Engineering</legend>
+            <div class="tech-pills-row">
+              <span class="xp-pill">Groq API</span>
+              <span class="xp-pill">Llama 3.3 70B Versatile</span>
+              <span class="xp-pill">Pydantic</span>
+              <span class="xp-pill">Prompt Engineering</span>
+              <span class="xp-pill">Ollama</span>
+              <span class="xp-pill">HNSW Indexing</span>
+            </div>
+          </fieldset>
+
+          <fieldset class="xp-fieldset">
+            <legend>Developer Tools</legend>
+            <div class="tech-pills-row">
+              <span class="xp-pill">Git</span>
+              <span class="xp-pill">GitHub</span>
+              <span class="xp-pill">Docker</span>
+              <span class="xp-pill">Postman</span>
+              <span class="xp-pill">Linux</span>
+            </div>
+          </fieldset>
+        </div>
+
+        <!-- Tab 3: Experience -->
+        <div id="tab-experience" class="xp-tab-page">
+          <fieldset class="xp-fieldset">
+            <legend>Summer Research Internship (Jun 2026 – Aug 2026)</legend>
+            <strong>National Institute of Technology Jamshedpur</strong><br/>
+            <em>Department of Computer Science and Engineering</em>
+            <ul style="padding-left:18px; margin-top:8px; line-height:1.4;">
+              <li>Completed summer internship on Ensemble Feature Selection Techniques for ADHD Detection.</li>
+              <li>Worked on feature selection and machine learning techniques for identifying relevant features in ADHD detection datasets.</li>
+            </ul>
+          </fieldset>
+        </div>
+
+        <!-- Tab 4: Education -->
+        <div id="tab-education" class="xp-tab-page">
+          <fieldset class="xp-fieldset">
+            <legend>B.Tech in Information Technology</legend>
+            <strong>Jalpaiguri Government Engineering College (2023 – 2027)</strong><br/>
+            Score: <strong>CGPA 8.11</strong><br/>
+            Coursework: DBMS, Operating Systems, Computer Networks, OOP
+          </fieldset>
+
+          <fieldset class="xp-fieldset">
+            <legend>Higher Secondary Examination (12th)</legend>
+            <strong>Islampur High School</strong><br/>
+            Score: <strong>88%</strong>
+          </fieldset>
+        </div>
+      </div>
+
+      <div style="padding:10px 16px; background:#ece9d8; display:flex; justify-content:flex-end; gap:8px; border-top:1px solid #d4d0c8;">
+        <button class="xp-btn xp-btn-primary" onclick="windowManager.close('window-system')">OK</button>
+        <button class="xp-btn" onclick="windowManager.close('window-system')">Cancel</button>
+      </div>
+    </div>
+
+    <!-- =========================================================================
+         WINDOW 6: COMMAND PROMPT (cmd.exe)
+         ========================================================================= -->
+    <div id="window-cmd" class="xp-window hidden" style="width: 640px; height: 420px; top: 100px; left: 140px;">
+      <div class="xp-window-header">
+        <div class="xp-window-title">
+          <span>📟</span>
+          <span>Command Prompt - cmd.exe</span>
+        </div>
+        <div class="xp-window-controls">
+          <div class="xp-control-btn btn-minimize"><span></span></div>
+          <div class="xp-control-btn btn-maximize"><span></span></div>
+          <div class="xp-control-btn btn-close"><span>&times;</span></div>
+        </div>
+      </div>
+      <div id="cmd-scroll-area" class="cmd-window-body">
+        <div>Microsoft Windows XP [Version 5.1.2600]</div>
+        <div>(C) Copyright 1985-2001 Microsoft Corp.</div>
+        <div style="margin-bottom:8px;">Type <strong>help</strong> to see available commands, or <strong>rover &lt;question&gt;</strong> to query AI.</div>
+        <div id="cmd-output"></div>
+        <div class="cmd-input-row">
+          <span class="cmd-prompt">C:\Documents and Settings\Saikat&gt;&nbsp;</span>
+          <input type="text" id="cmd-input" class="cmd-input-field" spellcheck="false" autocomplete="off" autofocus>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================================================================
+         WINDOW 7: MINESWEEPER
+         ========================================================================= -->
+    <div id="window-minesweeper" class="xp-window hidden xp-dialog" style="width: 250px; height: 320px; top: 120px; left: 300px;">
+      <div class="xp-window-header">
+        <div class="xp-window-title">
+          <span>💣</span>
+          <span>Minesweeper</span>
+        </div>
+        <div class="xp-window-controls">
+          <div class="xp-control-btn btn-close"><span>&times;</span></div>
+        </div>
+      </div>
+      <div class="xp-menubar">
+        <div class="xp-menu-item">Game</div>
+        <div class="xp-menu-item">Help</div>
+      </div>
+      <div style="padding:12px; background:#bdbdbd; flex:1; display:flex; justify-content:center;">
+        <div class="minesweeper-frame">
+          <div class="minesweeper-header-bar">
+            <div id="minesweeper-mines" class="ms-counter">010</div>
+            <div id="minesweeper-face" class="ms-face face-smile"></div>
+            <div id="minesweeper-timer" class="ms-counter">000</div>
+          </div>
+          <div id="minesweeper-board" class="minesweeper-grid"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================================================================
+         WINDOW 8: CONTACT FORM
+         ========================================================================= -->
+    <div id="window-contact" class="xp-window hidden xp-dialog" style="width: 460px; height: 420px; top: 110px; left: 220px;">
+      <div class="xp-window-header">
+        <div class="xp-window-title">
+          <span>✉️</span>
+          <span>Send Message to Saikat Barai</span>
+        </div>
+        <div class="xp-window-controls">
+          <div class="xp-control-btn btn-close"><span>&times;</span></div>
+        </div>
+      </div>
+      <div style="padding:16px; background:#ece9d8; flex:1; display:flex; flex-direction:column; gap:10px;">
+        <p style="font-size:11px;">You can directly contact Saikat Barai via email or this message box:</p>
+        <form id="xp-contact-form" style="display:flex; flex-direction:column; gap:8px;">
+          <div>
+            <label style="display:block; margin-bottom:2px;">Your Name:</label>
+            <input type="text" id="contact-name" class="assistant-input-field" style="width:100%;" required placeholder="Recruiter / Collaborator">
+          </div>
+          <div>
+            <label style="display:block; margin-bottom:2px;">Your Email:</label>
+            <input type="email" id="contact-email" class="assistant-input-field" style="width:100%;" required placeholder="your.name@company.com">
+          </div>
+          <div>
+            <label style="display:block; margin-bottom:2px;">Message / Opportunity Details:</label>
+            <textarea id="contact-message" class="assistant-input-field" style="width:100%; height:90px; resize:none;" required placeholder="Hi Saikat, I saw your C++ Vector DB and AI screening project..."></textarea>
+          </div>
+          <div id="contact-status-msg" style="min-height:16px; font-weight:bold;"></div>
+          <div style="display:flex; justify-content:flex-end; gap:8px; margin-top:6px;">
+            <button type="submit" class="xp-btn xp-btn-primary">📨 Send Message</button>
+            <button type="button" class="xp-btn" onclick="windowManager.close('window-contact')">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div> <!-- End #xp-desktop -->
+
+  <!-- =========================================================================
+       WINDOWS XP START MENU
+       ========================================================================= -->
+  <div id="xp-start-menu" class="hidden">
+    <!-- Header -->
+    <div class="start-menu-header">
+      <div class="user-avatar-frame"></div>
+      <div>
+        <div class="user-meta-name">Saikat Barai</div>
+        <div class="user-meta-title">Software &amp; AI Engineer (JGEC)</div>
+      </div>
+    </div>
+
+    <!-- Body (Two columns) -->
+    <div class="start-menu-body">
+      <!-- Left Column -->
+      <div class="start-menu-left">
+        <div class="start-menu-item" data-action="open:window-projects">
+          <span style="font-size:20px;">📁</span>
+          <div>
+            <div class="item-title">My Projects</div>
+            <div class="item-desc">Vector DB, AI Resume, Coding Platform</div>
+          </div>
+        </div>
+
+        <div class="start-menu-item" data-action="open:window-assistant">
+          <span style="font-size:20px;">🐕</span>
+          <div>
+            <div class="item-title">AI Assistant (Rover)</div>
+            <div class="item-desc">Interactive resume Q&amp;A companion</div>
+          </div>
+        </div>
+
+        <div class="start-menu-item" data-action="open:window-resume">
+          <span style="font-size:20px;">📄</span>
+          <div>
+            <div class="item-title">WordPad Resume</div>
+            <div class="item-desc">Print &amp; inspect complete resume</div>
+          </div>
+        </div>
+
+        <div class="start-menu-item" data-action="open:window-cmd">
+          <span style="font-size:20px;">📟</span>
+          <div>
+            <div class="item-title">Command Prompt</div>
+            <div class="item-desc">Classic terminal emulator</div>
+          </div>
+        </div>
+
+        <div class="start-menu-item" data-action="open:window-minesweeper">
+          <span style="font-size:20px;">💣</span>
+          <div>
+            <div class="item-title">Minesweeper</div>
+            <div class="item-desc">Play classic retro game</div>
+          </div>
+        </div>
+
+        <div class="start-menu-separator"></div>
+
+        <div class="start-menu-item" data-action="open:window-contact">
+          <span style="font-size:20px;">✉️</span>
+          <div>
+            <div class="item-title">Outlook Express (Email)</div>
+            <div class="item-desc">brucewyane699@gmail.com</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="start-menu-right">
+        <div class="start-menu-item" data-action="open:window-system">
+          <span style="font-size:18px;">🖥️</span>
+          <div><strong style="color:#001966;">My Computer</strong></div>
+        </div>
+        <div class="start-menu-item" data-action="open:window-projects">
+          <span style="font-size:18px;">📂</span>
+          <div><strong style="color:#001966;">My Documents</strong></div>
+        </div>
+        <div class="start-menu-item" data-action="open:window-system">
+          <span style="font-size:18px;">⚙️</span>
+          <div>Control Panel</div>
+        </div>
+        <div class="start-menu-separator"></div>
+        <div class="start-menu-item" data-url="https://github.com">
+          <span style="font-size:18px;">🐙</span>
+          <div>GitHub</div>
+        </div>
+        <div class="start-menu-item" data-url="https://linkedin.com">
+          <span style="font-size:18px;">💼</span>
+          <div>LinkedIn</div>
+        </div>
+        <div class="start-menu-item" data-url="https://leetcode.com">
+          <span style="font-size:18px;">⚡</span>
+          <div>LeetCode</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="start-menu-footer">
+      <button class="power-btn" data-action="turnoff">
+        <span class="icon-logoff"></span> Log Off
+      </button>
+      <button class="power-btn" data-action="turnoff">
+        <span class="icon-power"></span> Turn Off Computer
+      </button>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       WINDOWS XP TASKBAR
+       ========================================================================= -->
+  <div id="xp-taskbar">
+    <!-- Start Button -->
+    <button id="xp-start-button">
+      <span class="start-logo"></span>
+      <span>start</span>
+    </button>
+
+    <!-- Taskbar Window Tabs -->
+    <div id="taskbar-windows"></div>
+
+    <!-- System Tray -->
+    <div id="xp-system-tray">
+      <!-- CRT Toggle Button -->
+      <div id="tray-crt-toggle" class="tray-icon" title="Toggle Vintage CRT Monitor Scanlines">
+        📺
+      </div>
+      <!-- Sound Mute/Unmute -->
+      <div id="tray-sound-toggle" class="tray-icon" title="Sound: Enabled">
+        🔊
+      </div>
+      <!-- Network icon -->
+      <div class="tray-icon" title="Connected: Internet 100.0 Mbps">
+        🌐
+      </div>
+      <!-- Real-time Clock -->
+      <div id="tray-clock">12:00 PM</div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       MODAL: TURN OFF COMPUTER
+       ========================================================================= -->
+  <div id="xp-turnoff-modal" class="hidden">
+    <div class="turnoff-dialog-box">
+      <div class="turnoff-title-row">
+        <span>Turn off computer</span>
+        <span style="font-size:12px; font-weight:normal; opacity:0.8;">Windows XP</span>
+      </div>
+      <div class="turnoff-options-row">
+        <div class="turnoff-action-item" id="turnoff-standby-btn">
+          <div class="turnoff-icon-circle turnoff-btn-standby">
+            <span style="font-size:24px;">🌙</span>
+          </div>
+          <span>Stand By</span>
+        </div>
+
+        <div class="turnoff-action-item" id="turnoff-shutdown-btn">
+          <div class="turnoff-icon-circle turnoff-btn-shutdown">
+            <span style="font-size:24px;">⏻</span>
+          </div>
+          <span>Turn Off</span>
+        </div>
+
+        <div class="turnoff-action-item" id="turnoff-restart-btn">
+          <div class="turnoff-icon-circle turnoff-btn-restart">
+            <span style="font-size:24px;">🔄</span>
+          </div>
+          <span>Restart</span>
+        </div>
+      </div>
+      <div style="display:flex; justify-content:flex-end;">
+        <button id="turnoff-cancel-btn" class="xp-btn">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shutdown splash screen -->
+  <div id="xp-shutdown-screen" class="hidden">
+    <div style="font-size:26px; color:#ffb900; margin-bottom:12px;">It is now safe to turn off your computer.</div>
+    <div style="font-size:14px; color:#99bbff;">Click anywhere or press any key to restart Saikat Barai's portfolio.</div>
+  </div>
+
+  <!-- BSOD Easter Egg Screen -->
+  <div id="xp-bsod-screen" class="hidden">
+    <div>A problem has been detected and Windows has been shut down to prevent damage to your computer.</div>
+    <br/>
+    <div>SAIKAT_BARAI_EXCELLENCE_OVERFLOW</div>
+    <br/>
+    <div>If this is the first time you've seen this stop error screen, restart your computer. If this screen appears again, consider offering Saikat an interview!</div>
+    <br/>
+    <div>Technical information:</div>
+    <div>*** STOP: 0x000000D1 (0x0000000C, 0x00000002, 0x00000000, 0xF86B5A89)</div>
+    <br/>
+    <div>*** saikat_engine.sys - Address F86B5A89 base at F86B5000, DateStamp 3d6dd67c</div>
+    <br/>
+    <div>Press ANY KEY or CLICK ANYWHERE to return to Windows...</div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/audio.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/assistant.js"></script>
+  <script src="js/windows.js"></script>
+  <script src="js/apps.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
