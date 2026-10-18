@@ -57,7 +57,7 @@ class XpAssistant {
       },
       {
         patterns: [/\b(contact|email|phone|hire|reach|linkedin|github|interview|call)\b/i],
-        reply: () => `### 📬 Get In Touch with Saikat\n\nSaikat is actively looking for **Software Engineering & AI Engineering opportunities**:\n\n* 📧 **Email:** [brucewyane699@gmail.com](mailto:brucewyane699@gmail.com)\n* 📞 **Phone:** [+91-8597277733](tel:+918597277733)\n* 🐙 **GitHub:** [github.com/Saikat-Bara479i](https://github.com/Saikat-Bara479i)\n* 💼 **LinkedIn:** [linkedin.com/in/saikat-barai](https://linkedin.com)\n* ⚡ **LeetCode:** [leetcode.com/saikat-barai](https://leetcode.com)\n\nYou can also click the **Resume** shortcut on the desktop or use the Contact icon in the Start Menu!`,
+        reply: () => `### 📬 Get In Touch with Saikat\n\nSaikat is actively looking for **Software Engineering & AI Engineering opportunities**:\n\n* 📧 **Email:** [brucewyane699@gmail.com](mailto:brucewyane699@gmail.com)\n* 📞 **Phone:** [+91-8597277733](tel:+918597277733)\n* 🐙 **GitHub:** [github.com/Saikat-Bara479i](https://github.com/Saikat-Bara479i)\n* 💼 **LinkedIn:** [linkedin.com/in/saikat-barai-463612290](https://www.linkedin.com/in/saikat-barai-463612290/)\n* ⚡ **LeetCode:** [leetcode.com/saikat-barai](https://leetcode.com)\n\nYou can also click the **Resume** shortcut on the desktop or use the Contact icon in the Start Menu!`,
         action: 'open_contact'
       },
       {

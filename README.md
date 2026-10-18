@@ -75,3 +75,5 @@ Push this directory to a GitHub repository and turn on **GitHub Pages** under re
 * **Research**: Summer Research Intern at NIT Jamshedpur (ADHD Detection via Ensemble Feature Selection)
 * **Email**: brucewyane699@gmail.com
 * **Phone**: +91-8597277733
+* **GitHub**: [https://github.com/Saikat-Bara479i](https://github.com/Saikat-Bara479i)
+* **LinkedIn**: [https://www.linkedin.com/in/saikat-barai-463612290/](https://www.linkedin.com/in/saikat-barai-463612290/)

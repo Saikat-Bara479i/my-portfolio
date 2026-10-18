@@ -14,7 +14,7 @@ const SAIKAT_DATA = {
     status: "Seeking SDE / AI Engineer Internships & New Grad Roles",
     socials: {
       github: "https://github.com/Saikat-Bara479i",
-      linkedin: "https://linkedin.com",
+      linkedin: "https://www.linkedin.com/in/saikat-barai-463612290/",
       leetcode: "https://leetcode.com",
       email: "mailto:brucewyane699@gmail.com"
     },
