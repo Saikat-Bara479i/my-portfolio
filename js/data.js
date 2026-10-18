@@ -13,7 +13,7 @@ const SAIKAT_DATA = {
     location: "West Bengal, India",
     status: "Seeking SDE / AI Engineer Internships & New Grad Roles",
     socials: {
-      github: "https://github.com",
+      github: "https://github.com/Saikat-Bara479i",
       linkedin: "https://linkedin.com",
       leetcode: "https://leetcode.com",
       email: "mailto:brucewyane699@gmail.com"
@@ -60,7 +60,7 @@ const SAIKAT_DATA = {
       fileType: "C++ Application (.exe)",
       size: "4.2 MB",
       dateModified: "2026-03-15",
-      github: "https://github.com",
+      github: "https://github.com/Saikat-Bara479i",
       category: "Systems & AI Engine",
       summary: "Custom high-performance vector database built from scratch in C++ for storing and searching high-dimensional embeddings.",
       bullets: [
@@ -78,7 +78,7 @@ const SAIKAT_DATA = {
       fileType: "Python/AI Application (.py)",
       size: "1.8 MB",
       dateModified: "2026-02-10",
-      github: "https://github.com",
+      github: "https://github.com/Saikat-Bara479i",
       category: "LLM & Generative AI",
       summary: "Intelligent recruitment screening pipeline leveraging Groq Llama 3.3 70B & Pydantic for structured resume intelligence.",
       bullets: [
@@ -95,7 +95,7 @@ const SAIKAT_DATA = {
       fileType: "Fullstack Web App (.js)",
       size: "8.6 MB",
       dateModified: "Ongoing",
-      github: "https://github.com",
+      github: "https://github.com/Saikat-Bara479i",
       category: "Full Stack Web System",
       summary: "Full-stack algorithmic problem solving platform with real-time code submission and automated grading.",
       bullets: [
@@ -112,7 +112,7 @@ const SAIKAT_DATA = {
       fileType: "Hackathon Project (.sln)",
       size: "5.1 MB",
       dateModified: "2025-11-20",
-      github: "https://github.com",
+      github: "https://github.com/Saikat-Bara479i",
       category: "Hackathon Award",
       summary: "Led Team 'Bottleneck' at Smart India Hackathon solving real-world technological challenges.",
       bullets: [
